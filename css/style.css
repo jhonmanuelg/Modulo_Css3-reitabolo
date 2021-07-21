@@ -7,16 +7,16 @@
     }
     
     body {
-        background: #83a4d4;
-        background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
-        background: linear-gradient(to right, #b6fbff, #83a4d4);
+        background: rgb(103, 5, 144);
+        background: linear-gradient(157deg, rgba(103, 5, 144, 0.9192051820728291) 27%, rgba(252, 70, 159, 0.8547794117647058) 100%);
+        ;
     }
     
     #header1 {
         width: 100%;
         height: 86px;
-        background: rgb(2, 0, 36);
-        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(41, 41, 226, 1) 23%, rgba(0, 212, 255, 1) 93%);
+        background: rgb(120, 34, 195);
+        background: linear-gradient(103deg, rgba(120, 34, 195, 1) 14%, rgba(195, 34, 137, 0.8883928571428571) 42%, rgba(214, 40, 163, 0.4906337535014006) 74%);
         position: fixed;
         z-index: 10;
         top: 0px;
@@ -30,14 +30,30 @@
         margin: 0px auto;
     }
     
+    .avatar {
+        display: flex;
+        width: 40p%;
+    }
+    
+    .avatar img {
+        width: 5%;
+        line-height: 15px;
+        margin: 14px;
+        padding: 1px;
+        border: transparent;
+        border-radius: 50px;
+        box-shadow: 8px 14px 20px rgb(53, 8, 53);
+    }
+    
     .logo {
         float: left;
-        line-height: 75px;
+        line-height: 85px;
         text-align: center;
         border-radius: 40px;
     }
     
     .logo h1 {
+        float: left;
         color: #fff;
         font-weight: 400;
         font-size: 34px;
@@ -46,8 +62,10 @@
     }
     
     .menu {
+        display: flexbox;
+        float: left;
         float: right;
-        line-height: 89px;
+        margin-top: -39px;
     }
     
     .menu a {
@@ -58,13 +76,16 @@
         line-height: normal;
         font-size: 15px;
         font-weight: 600;
+        border-radius: 16px;
         transition: all 600ms ease;
         border-bottom: 3px solid transparent;
     }
     
     .menu a:hover {
-        box-shadow: 0px 2px 10px 9px rgba(4, 93, 112, 0.707);
-        color: rgb(7, 70, 153);
+        background: rgb(103, 5, 144);
+        background: linear-gradient(90deg, rgba(103, 5, 144, 1) 25%, rgba(252, 70, 159, 0.8547794117647058) 72%);
+        box-shadow: 0px 2px 10px 9px rgb(73, 8, 95);
+        color: rgb(255, 255, 255);
         border-radius: 16px;
         border-bottom: 3px solid;
     }
@@ -82,9 +103,9 @@
         height: 490px;
         margin: 30px;
         padding: 10px;
-        background: rgb(2, 0, 36);
-        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(41, 41, 226, 1) 35%, rgba(0, 212, 255, 1) 100%);
-        box-shadow: 0px 2px 10px 5px rgba(3, 3, 3, 0.589);
+        background: rgb(103, 5, 144);
+        background: linear-gradient(90deg, rgba(103, 5, 144, 1) 25%, rgba(252, 70, 159, 0.8547794117647058) 72%);
+        box-shadow: 0px 2px 10px 15px rgba(3, 3, 3, 0.589);
     }
     
     .section1 h2 {
@@ -120,8 +141,8 @@
     }
     
     img:hover {
-        border: 1px solid rgb(0, 217, 255);
-        box-shadow: 2px 10px 15px rgb(3, 0, 160);
+        border: 1px solid rgb(183, 0, 255);
+        box-shadow: 5px 10px 15px rgb(252, 38, 252);
     }
     
     .section2 {
@@ -129,8 +150,8 @@
         height: 490px;
         margin: 30px;
         padding: 10px;
-        background: rgb(2, 0, 36);
-        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(41, 41, 226, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        background: rgb(103, 5, 144);
+        background: linear-gradient(90deg, rgba(103, 5, 144, 1) 25%, rgba(252, 70, 159, 0.8547794117647058) 72%);
         box-shadow: 0px 2px 10px 5px rgba(3, 3, 3, 0.4);
     }
     
@@ -165,8 +186,8 @@
         height: 490px;
         margin: 30px;
         padding: 10px;
-        background: rgb(2, 0, 36);
-        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(41, 41, 226, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        background: rgb(103, 5, 144);
+        background: linear-gradient(90deg, rgba(103, 5, 144, 1) 25%, rgba(252, 70, 159, 0.8547794117647058) 72%);
         box-shadow: 0px 2px 10px 5px rgba(3, 3, 3, 0.4);
     }
     
@@ -193,8 +214,8 @@
         height: 555px;
         margin: 31px;
         padding: 14px;
-        background: rgb(2, 0, 36);
-        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(41, 41, 226, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        background: rgb(103, 5, 144);
+        background: linear-gradient(90deg, rgba(103, 5, 144, 1) 25%, rgba(252, 70, 159, 0.8547794117647058) 72%);
         box-shadow: 0px 2px 10px 5px rgba(3, 3, 3, 0.4);
     }
     
@@ -232,8 +253,8 @@
         height: 49px;
         margin: 0px;
         padding: 1px;
-        background: rgb(2, 0, 36);
-        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(41, 41, 226, 1) 23%, rgba(0, 212, 255, 1) 93%);
+        background: rgb(103, 5, 144);
+        background: linear-gradient(90deg, rgba(103, 5, 144, 1) 25%, rgba(252, 70, 159, 0.8547794117647058) 72%);
         box-shadow: 0px 2px 10px 5px rgba(3, 3, 3, 0.4);
     }
     
@@ -248,20 +269,22 @@
     
     button {
         float: right;
-        width: 54px;
+        width: 64px;
         height: 25px;
         text-align: center;
         text-decoration: none;
         border-radius: 16px;
-        background-color: rgb(0, 98, 255);
+        background: rgb(103, 5, 144);
+        background: linear-gradient(90deg, rgba(103, 5, 144, 1) 25%, rgba(252, 70, 159, 0.8547794117647058) 72%);
         transition: all 600ms ease;
         border: transparent;
     }
     
     button:hover {
-        background-color: #fff;
-        border: 1px solid rgba(31, 51, 233, 0.637);
-        box-shadow: 0px 2px 10px 9px rgba(27, 103, 245, 0.761);
+        box-shadow: 0px 2px 10px 9px rgb(73, 8, 95);
+        color: #fff;
+        border-radius: 16px;
+        border-bottom: 3px solid;
     }
     
     button .voltar {
@@ -275,8 +298,4 @@
         font-family: 'Otomanopee One', sans-serif;
         transition: all 500ms ease;
         border-bottom: 3px solid transparent;
-    }
-    
-    .voltar:hover {
-        color: rgb(0, 98, 255);
     }
